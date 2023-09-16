@@ -6,21 +6,26 @@
   font-weight: bold;
   margin: 0%;
   padding: 0%;
+  font-size: 20px;
 }
 
 body{
     background-color: #f5efff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
 header{
     background-color: #cdc1ff;
     height: 20vh;
     text-align: center;
+    width: 100%;
 }
 
 header p{
-    font-size: 15vh;
-    padding-bottom: 2.5vh;
+    font-size: 9vh;
+
 }
 
 header button{
@@ -54,4 +59,148 @@ header button:hover{
 
 #parcours_scolaire{
     display: flex;
+    align-items: center;
+    width: 75%;
+    background-color: #d2cbf0;
+    padding: 3%;
+    border-radius: 100px;
+}
+
+#iim{
+    width: 20%;
+}
+
+#iim img{
+    width: 100%;
+}
+
+#parcours_text{
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p{
+    padding-bottom: 3%;
+    padding-top: 3%;
+}  
+
+#hobies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sport{
+    margin-top: 15%;
+    display: flex;
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+    background-color: #9187bd;
+    padding: 3%;
+    border-radius: 100px;
+}
+
+#hockey{
+    width: 25%;
+}
+
+#hockey img{
+    width: 100%;
+}
+
+#sport_text{
+    text-align: right;
+    padding-right: 10%;
+}
+
+
+
+
+#lol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin-top: 15%;
+    background-color: #d2cbf0;
+    padding: 3%;
+    border-radius: 100px;
+}
+
+#seraphine{
+    width: 40%;
+}
+
+#seraphine img{
+    width: 100%;
+}
+
+#lol_text{
+    padding-left: 10%;
+}
+
+
+
+#vie_etudiante{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#iimpact{
+    margin-top: 15%;
+    display: flex;
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+    background-color: #9187bd;
+    padding: 3%;
+    border-radius: 100px;
+}
+
+#logo_iimpact{
+    width: 25%;
+    filter: invert(1);
+}
+
+#logo_iimpact img{
+    width: 100%;
+}
+
+#iimpact_text{
+    text-align: right;
+    padding-right: 10%;
+}
+
+
+
+
+#aubrac{
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    background-color: #d2cbf0;
+    padding: 3%;
+    border-radius: 100px;
+    margin-bottom: 5%;
+}
+
+#aubrac_pic{
+    width: 100%;
+}
+
+#aubrac_pic img{
+    width: 100%;
+}
+
+#aubrac_text{
+    padding-left: 10%;
 }
